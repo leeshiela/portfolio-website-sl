@@ -1,0 +1,376 @@
+body {
+  background-image: linear-gradient(#FFF, #EBF4DF);
+}
+
+header {
+  background-image: url("../img/teaching-bulletin-board.jpg");
+  /*--Parallax Scrolling Effect--*/
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px;
+ }
+
+/*--Navigation Menu Styles--*/
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -86px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding: 20px; 
+  width: 100px;
+  text-decoration: none; 
+  font-size: 20px; 
+  color: white; 
+  border-radius: 0 5px 5px 0;
+  font-family: 'Kalam', cursive;
+}
+
+#mySidenav a:hover {
+  left: 0; 
+}
+
+#about {
+  top: 50px;
+  background-color: #522A89;
+}
+
+#projects {
+  top: 130px;
+  background-color: #6A2A89; 
+}
+
+#tools {
+  top: 210px;
+  background-color: #812A89; 
+}
+
+#contact {
+  top: 290px;
+  background-color: #892A79;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  }
+
+/*--Icon Styling--*/
+i.fas, i.far {
+  color: white;
+  float: right;
+  }
+
+
+
+/*--About Me Section--*/
+#about-me-section {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+}
+
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.about-me img {
+  max-width: 450px;
+  height: 400px;
+  margin-left: 80px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+    /*--About Me Social Media Icons--*/
+    #social-media-icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+}
+    
+    .fa {
+      padding: 20px;
+      font-size: 35px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    
+    .fa:hover {
+      opacity: 0.7;
+    }
+      
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    
+    /* Twitter */
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    /*Linked In */
+    .fa-linkedin {
+      background: #2A5B89;
+      color: white;
+    }
+
+#about-me-text {
+  max-width: 600px;
+  margin-left: 40px;
+  text-align: left;
+ }
+
+/*--Projects Section--*/
+#projects-section {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-color: #FFF;
+  padding: 40px;
+}
+
+#projects-description {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#projects-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.project-boxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 320px;
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 10px;
+  padding: 40px;
+  background-image: linear-gradient(#FFF, #FFF, #E2F7E8);
+}
+
+.project-boxes:hover .color { /*Hovering over project boxes to put color on image in Projects Section*/
+  display: inline;
+}
+
+.project-boxes img {
+  max-width: 120px;
+  height: auto;
+}
+
+.card {
+  max-width: 120px;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.card .color {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.card:hover .color {
+  display: inline;
+}
+
+/*--Tools Section--*/
+#tools-section {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding-left: 80px;
+  height: 1000px;
+}
+
+#tools-description {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 22px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+#tools-container {
+  max-width: 80%;
+  height: 100%;
+  margin: 90px;
+}
+
+
+/*--Visual of tab content and tab  links for Tools Section--*/
+.tablink {
+  font-family: 'Kalam', cursive;
+  background-color: #000;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 25px;
+  width: 33%;
+ }
+
+.tablink:hover {
+  background-color: #909593;
+}
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 80px;
+  width: 100%;
+  height: 500px;
+  }
+
+.tools-boxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-boxes:hover .color { /*Hovering over tool boxes to put color on image in Tools Section*/
+  display: inline;
+}
+
+.tools-boxes img {
+  max-width: 250px;
+  height: auto;
+}
+
+#udl-tools {
+  background-color:#2A7389;
+}
+#station-tools {
+  background-color: #2A8987;
+}
+#digital-portfolios {
+  background-color: #2A5B89;
+}
+
+
+/*--Contact Section--*/
+#contact-section {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+ }
+
+/*--Contact Section Images--*/
+.images-boxes img {
+  max-width: 450px;
+  height: auto;
+  border-radius: 20%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  margin: 15px;
+}
+
+.images-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*--Contact paragraph and button*/
+#contact-paragraph {
+  text-align: center;
+  padding-left: 80px;
+}
+
+#contact-button-center {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+#contact-button {
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  background-color:#FFF;
+  border: 3px solid #892A79;
+  color: #892A79;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  padding: 16px;
+  -webkit-transition-duration: 0.4s; /*Safari*/
+  transition-duration: 0.4s;
+}
+
+#contact-button:hover {
+  background-color:#892A79;
+  color:#FFF;
+}
+
+
+/*--Font Styles--*/
+h1 {
+  font-family: 'Allura', cursive;
+  color: white;
+  font-size: 80px;
+  padding-left: 80px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 80px;
+  padding-top: 70px;
+ }
+
+h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 35px;
+  text-align: right;
+  margin-right: 85px;
+  padding: 40px;
+}
+
+h4 {
+  font-family: 'Kalam', cursive;
+  font-size: 24px;
+  text-align: center;
+ }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+footer {
+  font-family: 'Kalam', cursive;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+

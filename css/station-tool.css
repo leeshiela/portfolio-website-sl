@@ -1,0 +1,112 @@
+body {
+  background-image: linear-gradient(#FFF, #EBF4DF);
+}
+
+/*--Navigation Menu Styles--*/
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -86px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 20px; 
+    width: 100px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    font-family: 'Kalam', cursive;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  #about {
+    top: 50px;
+    background-color: #522A89;
+  }
+  
+  #projects {
+    top: 130px;
+    background-color: #6A2A89; 
+  }
+  
+  #tools {
+    top: 210px;
+    background-color: #812A89; 
+  }
+  
+  #contact {
+    top: 290px;
+    background-color: #892A79;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+  
+  /*--Icon Styling--*/
+  i.fas, i.far {
+    color: white;
+    float: right;
+    }
+
+/*--Station Tool Page Styles*/
+
+#station-tool-header {
+    font-family: 'Allura', cursive;
+    color:#000;
+    font-size: 80px;
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+.starting-station-information {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: left;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 40px;
+  }
+  
+.station-boxes {
+    display: flex;
+    justify-content: center;
+  }
+  
+.legend-names {
+    text-align: center;
+  }
+  
+  #stations-output-header {
+    font-family: 'Kalam', cursive;
+    text-align: left;
+  }
+  
+  .station-output {
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+  }
+  
+  #rotate-stations-button {
+    text-align: center;
+    background-color: #A3E4D7;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  .center-buttons {
+    display: flex;
+    justify-content: center;
+   }
+  
+  #rotate-stations-button:hover {
+   background-color: #000;
+   color: white;
+   }
+  
