@@ -68,3 +68,7 @@ function showInput() {
 
   //Javascript switch classes
   //Set classes for the positions of each station
+
+  function StationMembers() {
+
+  }

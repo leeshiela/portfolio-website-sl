@@ -62,6 +62,12 @@ body {
     text-align: center;
     padding-top: 20px;
   }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-left: 80px;
+  }
   
 .starting-station-information {
     font-family: 'Roboto Condensed', sans-serif;
@@ -77,8 +83,14 @@ body {
   
 .legend-names {
     text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
   }
   
+  label {
+    font-family: 'Montserrat', sans-serif;
+  }
+
   #stations-output-header {
     font-family: 'Kalam', cursive;
     text-align: left;
@@ -110,3 +122,10 @@ body {
    color: white;
    }
   
+   footer {
+    font-family: 'Kalam', cursive;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
