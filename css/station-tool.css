@@ -122,6 +122,10 @@ body {
    color: white;
    }
   
+h4 {
+  font-family: 'Kalam', cursive;
+}
+
    footer {
     font-family: 'Kalam', cursive;
     padding: 80px;

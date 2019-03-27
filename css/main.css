@@ -161,7 +161,7 @@ i.fas, i.far {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  max-width: 320px;
+  max-width: 250px;
   height: auto;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   margin: 10px;
@@ -174,12 +174,12 @@ i.fas, i.far {
 }
 
 .project-boxes img {
-  max-width: 120px;
+  max-width: 100px;
   height: auto;
 }
 
 .card {
-  max-width: 120px;
+  max-width: 100px;
   height: auto;
   position: relative;
   display: inline-block;
@@ -215,7 +215,7 @@ i.fas, i.far {
 }
 
 #tools-container {
-  max-width: 80%;
+  max-width: 90%;
   height: 100%;
 }
 
@@ -230,7 +230,7 @@ i.fas, i.far {
   cursor: pointer;
   padding: 14px 16px;
   font-size: 25px;
-  width: 33%;
+  width: 33.3%;
  }
 
 .tablink:hover {
@@ -241,7 +241,6 @@ i.fas, i.far {
   color: white;
   display: none;
   padding: 80px;
-  width: 80%;
   height: 500px;
   }
 
@@ -269,7 +268,7 @@ i.fas, i.far {
   background-color: #2A8987;
 }
 #digital-portfolios {
-  background-color: #2A5B89;
+  background-color: #675CBF;
 }
 
 
@@ -361,7 +360,7 @@ h4 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 footer {
