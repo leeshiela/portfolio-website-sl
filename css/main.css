@@ -68,7 +68,6 @@ i.fas, i.far {
 /*--About Me Section--*/
 #about-me-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  padding: 20px;
 }
 
 
@@ -88,6 +87,7 @@ i.fas, i.far {
   border-radius: 50%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+
     /*--About Me Social Media Icons--*/
     #social-media-icons {
       display: flex;
@@ -96,16 +96,16 @@ i.fas, i.far {
       padding: 40px;
 }
     
-    .fa {
-      padding: 20px;
-      font-size: 35px;
-      width: 20px;
+    .fab {
+      padding: 15px;
+      font-size: 25px;
+      width: 25px;
       text-align: center;
       text-decoration: none;
       border-radius: 50%;
     }
     
-    .fa:hover {
+    .fab:hover {
       opacity: 0.7;
     }
       
@@ -130,9 +130,16 @@ i.fas, i.far {
       margin: 8px;
     }
 
+    /*GitHub*/
+    .fa-github {
+      background: #000;
+      color: white;
+      margin: 8px;
+    }
+
 #about-me-text {
-  max-width: 600px;
-  margin-left: 40px;
+  max-width: 520px;
+  margin-left: 50px;
   text-align: left;
  }
 
@@ -140,7 +147,7 @@ i.fas, i.far {
 #projects-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background-color: #FFF;
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 #projects-description {
@@ -204,17 +211,17 @@ i.fas, i.far {
 
 #tools-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  padding-left: 80px;
-  height: 1000px;
+  padding-left: 100px;
+  height: 900px;
 }
 
 #tools-description {
   text-align: center;
   font-family: 'Kalam', cursive;
   font-size: 22px;
-  display: flex;
+  /*display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: center;*/
 }
 
 #tools-container {
@@ -237,41 +244,45 @@ i.fas, i.far {
  }
 
 .tablink:hover {
-  background-color: #909593;
+  background-color: #522A89;
+  color: white;
 }
 
 .tabcontent {
   color: white;
   display: none;
   padding: 80px;
-  height: 500px;
-  }
+  height: 380px;
+}
+
+.tabcontent:hover .color { /*Hovering over tab content to put color on image in Tools Section*/
+  display: inline;
+}
 
 .tools-boxes {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-}
-
-.tools-boxes:hover .color { /*Hovering over tool boxes to put color on image in Tools Section*/
-  display: inline;
+  align-items: center;
 }
 
 .tools-boxes img {
-  max-width: 250px;
+  max-width: 200px;
   height: auto;
+ }
+
+.tool-p {
+  max-width: 800px;
 }
 
 #udl-tools {
-  background-color:#2A7389;
+  background: linear-gradient(#2A7389 40%, #EBF4DF);
 }
 #station-tools {
-  background-color: #2A8987;
+  background: linear-gradient(#2A8987 40%, #EBF4DF);
 }
 #digital-portfolios {
-  background-color: #675CBF;
+  background: linear-gradient(#675CBF 40%, #EBF4DF);
 }
 
 
@@ -332,7 +343,7 @@ i.fas, i.far {
 h1 {
   font-family: 'Allura', cursive;
   color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   font-size: 80px;
   padding-left: 80px;
   text-align: center;
@@ -365,7 +376,12 @@ h4 {
 
 p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a:link {
+  color: hotpink;
 }
 
 footer {
