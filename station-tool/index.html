@@ -21,6 +21,7 @@
 
 <body>
     <header>
+        <h1 id=station-tool-header>Station Tool</h1>
     </header>
 
     <!--Vertical Side Navigation Bar w/Icons-->
@@ -38,89 +39,120 @@
     </nav>
 
     <!--Station Tool Information-->
-    <div class="Information">
-        <h1 id=station-tool-header>Station Tool</h1>
-        <p>Many teachers use stations teaching as a way to teach different activities by rotating students to different
-            stations. Use this tool to drag and drop different tools that students will need to bring to their station.
-            Click the "Rotate stations!" button
-            when it is time to rotate! Don't forget to input the names of students in each station so students know
-            where to go. Enjoy!</p>
-        <br>
-        <p>Input the starting station information here. Please input group member names with one name on each line.</p>
+    <div class="information">
+        <p id="description-p">Many teachers use stations teaching as a way to teach different activities by rotating
+            students to different
+            stations. Use this tool to help students know where to go and what to bring when they rotate.
+        </p>
     </div>
-
-    <div class="starting-station-information">
-        <form>
-            <div class="station-boxes">
-                <fieldset class="station-boxes">
-                    <legend class="legend-names">Station 1</legend>
-                    <label><b>Station 1 Activity Name</b></label>
-                    <input type="text" name="Activity-1-Name" id="station-1-name" placeholder="Type the Activity Here">
-                    <br>
-                    <label><b>Materials to Bring</b></label>
-                    <input type="text" name="Materials-1-Name" id="station-1-materials"
-                        placeholder="Type the Materials Needed">
-                    <br>
-                    <label><b>Group Members:</b></label>
-                    <textarea name="Station-1-Group-Members" id="station-1-members" rows="10" cols="30"
-                        placeholder="Type group member names here"></textarea>
-                </fieldset>
-
-                <fieldset class="station-boxes">
-                    <legend class="legend-names">Station 2</legend>
-                    <label><b>Station 2 Activity Name</b></label>
-                    <input type="text" name="Activity-2-Name" id="station-2-name" placeholder="Type the Activity Here">
-                    <br>
-                    <label><b>Materials to Bring</b></label>
-                    <input type="text" name="Materials-2-Name" id="station-2-materials"
-                        placeholder="Type the Materials Needed">
-                    <br>
-                    <label><b>Group Members:</b></label>
-                    <textarea name="Station-2-Group-Members" id="station-2-members" rows="10" cols="30"
-                        placeholder="Type group member names here"></textarea>
-                </fieldset>
-
-                <fieldset class="station-boxes">
-                    <legend class="legend-names">Station 3</legend>
-                    <label><b>Station 3 Activity Name</b></label>
-                    <input type="text" name="Activity-3-Name" id="station-3-name" placeholder="Type the Activity Here">
-                    <br>
-                    <label><b>Materials to Bring</b></label>
-                    <input type="text" name="Materials-3-Name" id="station-3-materials"
-                        placeholder="Type the Materials Needed">
-                    <br>
-                    <label><b>Group Members:</b></label>
-                    <textarea name="Station-3-Group-Members" id="station-3-members" rows="10" cols="30"
-                        placeholder="Type group member names here"></textarea>
-                </fieldset>
+    <section>
+        <div class="starting-station-information">
+            <div id="description-start">
+                <h2>Input your information</h2>
+                <p>Input the starting station information here. Please input group member names with one name on each
+                    line.</p>
             </div>
+            <form>
+                <div class="station-boxes">
+                    <fieldset class="station-boxes">
+                        <legend class="legend-names">Station 1</legend>
+                        <label><b>Station 1 Activity Name</b></label>
+                        <input type="text" name="Activity-1-Name" id="station-1-name"
+                            placeholder="Type the Activity Here">
+                        <br>
+                        <label><b>Materials to Bring</b></label>
+                        <input type="text" name="Materials-1-Name" id="station-1-materials"
+                            placeholder="Type the Materials Needed">
+                        <br>
+                        <label><b>Group Members:</b></label>
+                        <textarea name="Station-1-Group-Members" id="station-1-members" rows="10" cols="30"
+                            placeholder="Type group member names here"></textarea>
+                    </fieldset>
+
+                    <fieldset class="station-boxes">
+                        <legend class="legend-names">Station 2</legend>
+                        <label><b>Station 2 Activity Name</b></label>
+                        <input type="text" name="Activity-2-Name" id="station-2-name"
+                            placeholder="Type the Activity Here">
+                        <br>
+                        <label><b>Materials to Bring</b></label>
+                        <input type="text" name="Materials-2-Name" id="station-2-materials"
+                            placeholder="Type the Materials Needed">
+                        <br>
+                        <label><b>Group Members:</b></label>
+                        <textarea name="Station-2-Group-Members" id="station-2-members" rows="10" cols="30"
+                            placeholder="Type group member names here"></textarea>
+                    </fieldset>
+
+                    <fieldset class="station-boxes">
+                        <legend class="legend-names">Station 3</legend>
+                        <label><b>Station 3 Activity Name</b></label>
+                        <input type="text" name="Activity-3-Name" id="station-3-name"
+                            placeholder="Type the Activity Here">
+                        <br>
+                        <label><b>Materials to Bring</b></label>
+                        <input type="text" name="Materials-3-Name" id="station-3-materials"
+                            placeholder="Type the Materials Needed">
+                        <br>
+                        <label><b>Group Members:</b></label>
+                        <textarea name="Station-3-Group-Members" id="station-3-members" rows="10" cols="30"
+                            placeholder="Type group member names here"></textarea>
+                    </fieldset>
+                </div>
+                <!--Buttons to show information and Reset information-->
+                <div class="center-buttons">
+                    <input type="reset" value="Reset All Information" id="reset-button">
+                </div>
+            </form>
             <div class="center-buttons">
-                <input type="reset" value="Reset All Information">
+                <div>
+                    <button onclick="showInput();" id="submit">Submit</button>
+                </div>
             </div>
-
-        </form>
-    </div>
-
-    <!--Buttons to show information and Reset information-->
-    <div class="center-buttons">
-        <div>
-            <button onclick="showInput();">Submit</button>
         </div>
-    </div>
+    </section>
 
-    <section class="station-output">
-        <div>
-            <h2 id="stations-output-header">Stations</h2>
+    <!--Station Output Information-->
+    <section class="station-output-section">
+        <h2 id="stations-output-header">Stations</h2>
+        <div class="information">
+            <p>
+                The information you input will show up here.
+            </p>
         </div>
-        <h3 id="station-1-name-header"></h3>
-        <h4 id="station-1-materials-output"></h4>
-        <p id="station-1-members-output"></p>
-        <h3 id="station-2-name-header"></h3>
-        <h4 id="station-2-materials-output"></h4>
-        <p id="station-2-members-output"></p>
-        <h3 id="station-3-name-header"></h3>
-        <h4 id="station-3-materials-output"></h4>
-        <p id="station-3-members-output"></p>
+        <div>
+            <div class="stations-output-container">
+                <div class="station-1-output">
+                    <div class="station-1">
+                        <div class="stationary-name-materials">
+                            <h3 id="station-1-name-header"></h3>
+                            <h4 id="station-1-materials-output"></h4>
+                        </div>
+                        <div>
+                            <p id="station-1-members-output"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="station-2-3-output">
+                    <div class="station-2">
+                        
+                    </div>
+                    <div class="stationary-name-materials">
+                        <h3 id="station-2-name-header"></h3>
+                        <h4 id="station-2-materials-output"></h4>
+                    </div>
+                    <div>
+                        <p id="station-2-members-output"></p>
+                    </div>
+                    <div class="stationary-name-materials">
+                        <h3 id="station-3-name-header"></h3>
+                        <h4 id="station-3-materials-output"></h4>
+                    </div>
+                    <div>
+                        <p id="station-3-members-output"></p>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <div class="center-buttons">

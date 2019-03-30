@@ -2,6 +2,10 @@ body {
   background-image: linear-gradient(#FFF, #EBF4DF);
 }
 
+header {
+  height: 200px;
+
+}
 /*--Navigation Menu Styles--*/
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
@@ -69,11 +73,30 @@ body {
     padding-left: 80px;
   }
   
+  /*Station Tool Start: Inputting Information*/
+.information {
+  display: flex;
+  justify-content: center;
+}
+
+  #description-p {
+    max-width: 870px;
+    text-align: center;
+  }
+
+  #description-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+  }
+
 .starting-station-information {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: left;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding: 40px;
+    background: linear-gradient(#FFF, #FCF3CF);
   }
   
 .station-boxes {
@@ -91,19 +114,64 @@ body {
     font-family: 'Montserrat', sans-serif;
   }
 
+  /*Station Tool End: Output Information*/
   #stations-output-header {
     font-family: 'Kalam', cursive;
-    text-align: left;
+    text-align: center;
   }
   
-  .station-output {
+ .station-output-section {
     font-family: 'Kalam', cursive;
     font-size: 20px;
   }
   
-  #rotate-stations-button {
+.station-1-output {
+  display: flex;
+  justify-content: center;
+}
+
+.station-2-3-output {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+  /*Buttons*/
+
+.center-buttons {
+    display: flex;
+    justify-content: center;
+   }
+  
+#reset-button {
+  margin: 25px;
+  text-align: center;
+  background-color: #812A89;
+  color: white;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#submit {
+  margin: 10px;
+  text-align: center;
+  background-color: #2A8987;
+  color: white;
+  font-family: 'Kalam', cursive;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+ #rotate-stations-button {
     text-align: center;
-    background-color: #A3E4D7;
+    background-color: #B83166;
+    color: white;
     font-family: 'Kalam', cursive;
     font-weight: bold;
     font-size: 24px;
@@ -111,22 +179,23 @@ body {
     border-radius: 12px;
     cursor: pointer;
   }
-  
-  .center-buttons {
-    display: flex;
-    justify-content: center;
-   }
-  
+
   #rotate-stations-button:hover {
    background-color: #000;
    color: white;
    }
-  
+
+   /*General Styling Information*/
+h2 {
+  font-family: 'Kalam', cursive;
+  text-align: center;
+}
+
 h4 {
   font-family: 'Kalam', cursive;
 }
 
-   footer {
+footer {
     font-family: 'Kalam', cursive;
     padding: 80px;
     display: flex;

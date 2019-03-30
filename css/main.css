@@ -10,7 +10,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 80px;
+  padding: 25px;
  }
 
 /*--Navigation Menu Styles--*/
@@ -359,7 +359,7 @@ h2 {
   font-size: 20px;
   text-align: center;
   padding-left: 80px;
-  padding-top: 70px;
+  padding-top: 120px;
  }
 
 h3 {
