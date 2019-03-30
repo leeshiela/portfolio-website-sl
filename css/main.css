@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(#FFF, #EBF4DF);
+  background-color: #FFF;
 }
 
 header {
@@ -68,7 +68,8 @@ i.fas, i.far {
 /*--About Me Section--*/
 #about-me-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
+  background: linear-gradient(#FFF, #EBF4DF);
+ }
 
 
 .about-me {
@@ -146,7 +147,7 @@ i.fas, i.far {
 /*--Projects Section--*/
 #projects-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background-color: #FFF;
+  background: linear-gradient(#FFF 10%, #F9F3D9);
   padding-bottom: 40px;
 }
 
@@ -154,9 +155,7 @@ i.fas, i.far {
   text-align: center;
   font-family: 'Kalam', cursive;
   font-size: 22px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  padding-left: 80px;
 }
 
 #projects-container {
@@ -173,10 +172,10 @@ i.fas, i.far {
   justify-content: center;
   max-width: 250px;
   height: auto;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  /*box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
   margin: 10px;
-  padding: 40px;
-  background-image: linear-gradient(#FFF, #FFF, #E2F7E8);
+ /* padding: 40px;*/
+  /*background-image: linear-gradient(#FFF, #FFF, #E2F7E8);*/
 }
 
 .project-boxes:hover .color { /*Hovering over project boxes to put color on image in Projects Section*/
@@ -186,6 +185,10 @@ i.fas, i.far {
 .project-boxes img {
   max-width: 100px;
   height: auto;
+}
+
+#move-down {
+ padding-top: 50px;
 }
 
 .card {
@@ -211,6 +214,7 @@ i.fas, i.far {
 
 #tools-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background: linear-gradient(#FFF, #EBF4DF);
   padding-left: 100px;
   height: 900px;
 }
@@ -219,9 +223,6 @@ i.fas, i.far {
   text-align: center;
   font-family: 'Kalam', cursive;
   font-size: 22px;
-  /*display: flex;
-  flex-flow: row wrap;
-  justify-content: center;*/
 }
 
 #tools-container {
@@ -289,6 +290,7 @@ i.fas, i.far {
 /*--Contact Section--*/
 #contact-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background: linear-gradient(#FFF, #EFF7FE);
  }
 
 /*--Contact Section Images--*/
@@ -380,8 +382,10 @@ p {
   line-height: 1.5;
 }
 
-a:link {
-  color: hotpink;
+li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 footer {
