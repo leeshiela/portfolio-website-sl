@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: linear-gradient(#FFF, #EBF4DF);
 }
@@ -29,21 +33,26 @@ header {
     background-color: #522A89;
   }
   
-  #projects {
+  #journey {
     top: 130px;
     background-color: #6A2A89; 
   }
   
-  #tools {
+  #projects {
     top: 210px;
     background-color: #812A89; 
   }
   
-  #contact {
+  #tools {
     top: 290px;
     background-color: #892A79;
   }
   
+  #contact {
+    top: 370px;
+    background-color: #7D035E;
+  }
+
   .sticky {
     position: fixed;
     top: 0;
