@@ -21,7 +21,7 @@ header {
     font-size: 20px; 
     color: white; 
     border-radius: 0 5px 5px 0;
-    font-family: 'Kalam', cursive;
+    font-family: 'Dosis', sans-serif;
   }
   
   #mySidenav a:hover {
@@ -115,7 +115,7 @@ header {
   
 .legend-names {
     text-align: center;
-    font-family: 'Kalam', cursive;
+    font-family: 'Dosis', sans-serif;
     font-size: 22px;
   }
   
@@ -125,12 +125,12 @@ header {
 
   /*Station Tool End: Output Information*/
   #stations-output-header {
-    font-family: 'Kalam', cursive;
+    font-family: 'Dosis', sans-serif;
     text-align: center;
   }
   
  .station-output-section {
-    font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
     font-size: 20px;
   }
   
@@ -156,7 +156,7 @@ header {
   text-align: center;
   background-color: #812A89;
   color: white;
-  font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
   font-weight: bold;
   font-size: 18px;
   padding: 10px;
@@ -169,7 +169,7 @@ header {
   text-align: center;
   background-color: #2A8987;
   color: white;
-  font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
   font-weight: bold;
   font-size: 18px;
   padding: 10px;
@@ -181,7 +181,7 @@ header {
     text-align: center;
     background-color: #B83166;
     color: white;
-    font-family: 'Kalam', cursive;
+    font-family: 'Dosis', sans-serif;
     font-weight: bold;
     font-size: 24px;
     padding: 10px;
@@ -196,16 +196,16 @@ header {
 
    /*General Styling Information*/
 h2 {
-  font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
   text-align: center;
 }
 
 h4 {
-  font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
 }
 
 footer {
-    font-family: 'Kalam', cursive;
+  font-family: 'Dosis', sans-serif;
     padding: 80px;
     display: flex;
     flex-direction: column;
