@@ -155,7 +155,7 @@ i.fas, i.far {
 /*--Journey Section--*/
 #journey-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background-color: #DCDBDE;
+  background: linear-gradient(#FFF, #DCDBDE);
   padding-bottom: 40px;
   box-sizing: border-box;
 }
