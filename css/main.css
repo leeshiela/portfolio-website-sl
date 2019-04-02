@@ -193,7 +193,7 @@ i.fas, i.far {
 .journey-container {
   padding: 10px 40px;
   position: relative;
-  background-color: #000;
+  background-color: inherit;
   width: 50%;
 }
 
@@ -202,6 +202,7 @@ i.fas, i.far {
   content: '';
   position: absolute;
   width: 25px;
+  height: 25px;
   right: -17px;
   background-color: #FFF;
   border: 4px solid #7D035E;
