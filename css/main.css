@@ -161,7 +161,7 @@ i.fas, i.far {
 /*--Journey Section--*/
 #journey-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  background-color: #DCDBDE;
+  background-image: linear-gradient(to right, #DCDBDE 90%, #FFF);
   padding-bottom: 40px;
   padding-left: 80px;
 }
@@ -180,7 +180,7 @@ i.fas, i.far {
  /*--Vertical ruler timeline */
 .timeline {
   position: relative;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0px auto;
 }
 
