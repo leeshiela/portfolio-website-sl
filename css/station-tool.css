@@ -10,6 +10,7 @@ header {
   background: url(../img/station-tool-header.jpg);
   background-position: center;
   height: 300px;
+  background-repeat: no-repeat;
 
 }
 /*--Navigation Menu Styles--*/
