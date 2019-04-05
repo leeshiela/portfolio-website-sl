@@ -98,6 +98,7 @@ header {
     flex-direction: column;
     justify-content: center;
     padding-left: 80px;
+    text-align: center;
   }
 
 .starting-station-information {
@@ -111,6 +112,7 @@ header {
 .station-boxes {
     display: flex;
     justify-content: center;
+    margin: 10px;
   }
   
 .legend-names {
@@ -124,6 +126,10 @@ header {
   }
 
   /*Station Tool End: Output Information*/
+  .stations-output-container {
+    text-align: center;
+  }
+  
   #stations-output-header {
     font-family: 'Dosis', sans-serif;
     text-align: center;

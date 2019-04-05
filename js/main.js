@@ -75,7 +75,7 @@ function showInput() {
 
 //Iterating by number of clicks by adding one to the ID to switch places
   function showOutput() {
-    var rotation=0;    
+    var rotation=1;    
     //Station 1 name & members
       document.getElementById("station-1-name-header").innerHTML = 
       document.getElementById("station-1-name").value
@@ -95,6 +95,6 @@ function showInput() {
       document.getElementById("station-3-name").value
       document.getElementById("station-3-materials-output").innerHTML = 
       document.getElementById("station-3-materials").value
-      document.getElementById("station-" + (rotation%3 + 3) + "-members-output").innerHTML = 
+      document.getElementById("station-" + (rotation%3) + "-members-output").innerHTML = 
       document.getElementById("station-3-members").value
       }
