@@ -72,9 +72,30 @@ function showInput() {
   document.getElementById("station-3-members").value
   }
 
-  //Javascript switch classes
-  //Set classes for the positions of each station
 
-  function StationMembers() {
+let rotation = 0;
 
-  }
+  function showInput2() {
+    //Station 1 name & members
+      document.getElementById("station-1-name-header").innerHTML = 
+      document.getElementById("station-1-name").value
+      document.getElementById("station-1-materials-output").innerHTML = 
+      document.getElementById("station-1-materials").value
+      document.getElementById("station-" + (rotation%3 + 1) + "-member-output").innerHTML = 
+      document.getElementById("station-1-members").value
+    //Station 2 name & members
+      document.getElementById("station-2-name-header").innerHTML = 
+      document.getElementById("station-2-name").value
+      document.getElementById("station-2-materials-output").innerHTML = 
+      document.getElementById("station-2-materials").value  
+      document.getElementById("station-" + (rotation%3 + 2) + "-member-output").innerHTML = 
+      document.getElementById("station-2-members").value
+    //Station 3 name & members
+      document.getElementById("station-3-name-header").innerHTML = 
+      document.getElementById("station-3-name").value
+      document.getElementById("station-3-materials-output").innerHTML = 
+      document.getElementById("station-3-materials").value
+      document.getElementById("station-" + (rotation%3 + 3) + "-member-output").innerHTML = 
+      document.getElementById("station-3-members").value
+      }
+    
