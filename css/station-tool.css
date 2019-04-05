@@ -7,7 +7,9 @@ body {
 }
 
 header {
-  height: 200px;
+  background: url(../img/station-tool-header.jpg);
+  background-position: center;
+  height: 300px;
 
 }
 /*--Navigation Menu Styles--*/
@@ -73,7 +75,7 @@ header {
     font-size: 80px;
     padding-left: 80px;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 120px;
   }
 
   p {
