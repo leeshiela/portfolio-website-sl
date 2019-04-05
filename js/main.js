@@ -74,7 +74,7 @@ function showInput() {
 
 
 //Iterating by number of clicks by adding one to the ID to switch places
-  function showOutput() {
+function showOutputOne() {
     var rotation=1;    
     //Station 1 name & members
       document.getElementById("station-1-name-header").innerHTML = 

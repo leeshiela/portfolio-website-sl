@@ -79,8 +79,7 @@ header {
   p {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    padding-left: 80px;
-  }
+   }
   
   /*Station Tool Start: Inputting Information*/
 .information {
@@ -128,7 +127,7 @@ header {
   /*Station Tool End: Output Information*/
   .stations-output-container {
     text-align: center;
-  }
+    }
   
   #stations-output-header {
     font-family: 'Dosis', sans-serif;
@@ -147,11 +146,43 @@ header {
 
 .station-2-3-output {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   justify-content: space-evenly;
 }
-  /*Buttons*/
 
+.stationary-name-materials {
+  border-radius: 10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 5px;
+}
+
+.member-output {
+  background: #F2F3F4;
+  border-radius: 10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  padding: 20px;
+  text-align: center;
+  margin: 8px;
+}
+
+.station-1 {
+  background-color: #EC7063;
+  border-radius: 10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.station-2 {
+  background-color:#F8C471;
+  border-radius: 10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.station-3 {
+  background-color: #2DCACC;
+  border-radius: 10%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+  /*Buttons*/
 .center-buttons {
     display: flex;
     justify-content: center;
