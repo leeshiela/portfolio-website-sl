@@ -113,12 +113,12 @@ var station1members = station1.innerHTML;
 var station2members = station2.innerHTML;
 var station3members = station3.innerHTML;
 
-//Switch around the student names. Here we take a look at our containers. In it we replace the strings with new strings, thus, "rottating the members".
+//Switch around the student names. Here we take a look at our containers. In it we replace the strings with new strings, thus, "rotating the members".
 
-//station 1 container will now have members previously from station 2.
+//station 1 container will now have members previously from station 3.
 station1.innerHTML = station3members;
-//station 2 container will now have members previously from station 3.
+//station 2 container will now have members previously from station 1.
 station2.innerHTML = station1members;
-//station 3 container will now have members previously from station 1.
+//station 3 container will now have members previously from station 2.
 station3.innerHTML = station2members;
 }
