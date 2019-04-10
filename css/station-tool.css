@@ -8,11 +8,15 @@ body {
 
 header {
   background: url(../img/station-tool-header.jpg);
+  /*--Parallax Scrolling Effect--*/
+  height: 480px;
+  background-attachment: fixed;
   background-position: center;
-  height: 300px;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+ }
 
-}
 /*--Navigation Menu Styles--*/
 #mySidenav a {
     position: absolute; /* Position them relative to the browser window */
@@ -72,11 +76,12 @@ header {
 
 #station-tool-header {
     font-family: 'Allura', cursive;
-    color:#000;
+    color:#FFF;
     font-size: 80px;
     padding-left: 80px;
     text-align: center;
     padding-top: 120px;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   }
 
   p {
