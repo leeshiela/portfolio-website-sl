@@ -9,7 +9,7 @@ body {
 header {
   background: url(../img/station-tool-header.jpg);
   /*--Parallax Scrolling Effect--*/
-  height: 500px;
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
