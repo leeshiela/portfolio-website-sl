@@ -16,19 +16,7 @@ header {
   background-size: cover;
   padding: 40px;
 }
-/*
-@media screen and (max-width: 600px) {
-  header {
-    width: 100%;
-    height: 0;
-    padding: 0 0 40%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
 
 /*--Navigation Menu Styles--*/
 #mySidenav a {
@@ -182,6 +170,7 @@ i.fas, i.far {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 40px;
+    box-sizing: border-box;
 }
 
 
@@ -191,6 +180,7 @@ i.fas, i.far {
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   text-align: center;
   justify-content: center;
+  padding-left: 100px;
 }
 
 #journey-description {
@@ -227,6 +217,7 @@ i.fas, i.far {
   position: relative;
   background-color: inherit;
   width: 50%;
+  box-sizing: border-box;
 }
 
 /*--Circles on the timeline--*/
