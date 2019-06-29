@@ -235,7 +235,7 @@ i.fas, i.far {
 }
 /*--Place the container to the left--*/
 .left {
-  left: -80px;
+  left: 0px;
 }
 
 /*--Place the container to the right--*/
