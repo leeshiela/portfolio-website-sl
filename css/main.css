@@ -154,7 +154,7 @@ i.fas, i.far {
 
 #about-me-text {
   max-width: 520px;
-  margin-left: 50px;
+  margin-left: 80px;
   text-align: left;
   padding-right: 40px;
  }
@@ -393,7 +393,7 @@ i.fas, i.far {
 #tools-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(#FFF, #EBF4DF);
-  padding-left: 100px;
+  padding-left: 80px;
   /*height: 900px;*/
 }
 
@@ -470,6 +470,7 @@ i.fas, i.far {
 #contact-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(#FFF, #EFF7FE);
+  box-sizing: border-box;
  }
 
 /*--Contact Section Images--*/
@@ -544,8 +545,7 @@ h2 {
 h3 {
   font-family: 'Dosis', sans-serif;
   font-size: 35px;
-  text-align: right;
-  margin-right: 85px;
+  text-align: center;
   padding: 40px;
 }
 
