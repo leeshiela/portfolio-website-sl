@@ -189,6 +189,8 @@ i.fas, i.far {
   color: #FFF;
   font-weight: 800;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  text-align: center;
+  justify-content: center;
 }
 
 #journey-description {
