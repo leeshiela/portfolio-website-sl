@@ -414,7 +414,7 @@ i.fas, i.far {
 #tools-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(#FFF, #EBF4DF);
-  padding-left: 80px;
+  padding-left: 40px;
   /*height: 900px;*/
 }
 
@@ -539,9 +539,14 @@ i.fas, i.far {
 /*--Contact paragraph and button*/
 #contact-paragraph {
   text-align: center;
-  padding: 0px 5px 0px 45px;
+  padding: 0px 5px 0px 0px;
   box-sizing: border-box;
+}
 
+@media only screen and (max-width: 400px) {
+  #contact-paragraph {
+    padding: 0px 15px 0px 55px;
+  }
 }
 
 #contact-button-center {
@@ -590,6 +595,13 @@ h2 {
   text-align: center;
   padding-left: 80px;
   padding-top: 120px;
+ }
+
+ @media only screen and (max-width: 400px) {
+    h2 {
+    padding-top: 80px; 
+    margin-bottom: 20px;
+  }
  }
 
 h3 {
