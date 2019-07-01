@@ -104,7 +104,7 @@ i.fas, i.far {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .about-me img {
     max-width: 250px;
     height: auto;
@@ -184,7 +184,7 @@ i.fas, i.far {
     box-sizing: border-box;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
  #journey-section {
    padding-right: 0px;
  }
@@ -353,7 +353,7 @@ i.fas, i.far {
   padding-right: 40px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #projects-description {
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -424,7 +424,7 @@ i.fas, i.far {
   /*height: 900px;*/
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #tools-section {
     padding-left: 50px;
   }
@@ -438,7 +438,7 @@ i.fas, i.far {
   padding-left: 0px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #tools-description {
     text-align: center;
     font-family: 'Dosis', sans-serif;
@@ -467,7 +467,7 @@ i.fas, i.far {
   width: 33.3%;
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 450px) {
   .tablink {
     font-size: 16px;
 } 
@@ -485,7 +485,7 @@ i.fas, i.far {
   /*height: 380px;*/
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .tabcontent {
     font-size: 18px;
     padding: 20px;
@@ -539,7 +539,7 @@ i.fas, i.far {
   margin: 15px;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   .images-boxes img {
     max-width: 250px;
     height: auto;
@@ -569,7 +569,7 @@ i.fas, i.far {
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
   #contact-paragraph {
     padding: 0px 15px 0px 55px;
   }
@@ -623,7 +623,7 @@ h2 {
   padding-top: 120px;
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 450px) {
     h2 {
     padding-top: 80px; 
     margin-bottom: 20px;
@@ -643,7 +643,7 @@ h4 {
   text-align: center;
  }
 
- @media only screen and (max-width: 400px) {
+ @media only screen and (max-width: 450px) {
   h4 {
     font-size: 18px;
   }
