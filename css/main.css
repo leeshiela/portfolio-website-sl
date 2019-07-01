@@ -180,8 +180,14 @@ i.fas, i.far {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding: 0px 30px 25px 40px;
     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 400px) {
+ #journey-section {
+   padding-right: 0px;
+ }
 }
 
 
@@ -201,7 +207,7 @@ i.fas, i.far {
   font-weight: 700;
   color: #FFF;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  padding-left: 80px;
+  padding-left: 40px;
 }
 
  /*--Vertical ruler timeline */
