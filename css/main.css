@@ -420,15 +420,22 @@ i.fas, i.far {
 #tools-section {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background: linear-gradient(#FFF, #EBF4DF);
-  padding-left: 40px;
+  padding-left: 80px;
   /*height: 900px;*/
 }
+
+@media only screen and (max-width: 400px) {
+  #tools-section {
+    padding-left: 50px;
+  }
+}
+
 
 #tools-description {
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 22px;
-  padding-right: 40px;
+  padding-left: 0px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -437,9 +444,9 @@ i.fas, i.far {
     font-family: 'Dosis', sans-serif;
     font-size: 18px;
     padding-right: 40px;
+    padding-left: 20px;
   }
 }
-
 
 #tools-container {
   max-width: 90%;
@@ -460,6 +467,12 @@ i.fas, i.far {
   width: 33.3%;
  }
 
+ @media only screen and (max-width: 400px) {
+  .tablink {
+    font-size: 16px;
+} 
+}
+
 .tablink:hover {
   background-color: #522A89;
   color: white;
@@ -470,6 +483,13 @@ i.fas, i.far {
   display: none;
   padding: 80px;
   /*height: 380px;*/
+}
+
+@media only screen and (max-width: 400px) {
+  .tabcontent {
+    font-size: 18px;
+    padding: 20px;
+  }
 }
 
 .tabcontent:hover .color { /*Hovering over tab content to put color on image in Tools Section*/
@@ -622,6 +642,12 @@ h4 {
   font-size: 24px;
   text-align: center;
  }
+
+ @media only screen and (max-width: 400px) {
+  h4 {
+    font-size: 18px;
+  }
+}
 
 p {
   font-family: 'Montserrat', sans-serif;
