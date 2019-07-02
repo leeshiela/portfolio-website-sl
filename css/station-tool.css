@@ -91,7 +91,6 @@ header {
 
 @media only screen and (max-width: 450px) {
   p {
-    padding-left: 40px;
     text-align: center;
   }
 }
@@ -101,6 +100,11 @@ header {
 .information {
   display: flex;
   justify-content: center;
+}
+@media only screen and (max-width: 450px) {
+  .information {
+    padding-left: 40px;
+  }
 }
 
   #description-p {
