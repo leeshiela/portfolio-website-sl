@@ -186,7 +186,10 @@ i.fas, i.far {
 
 @media only screen and (max-width: 450px) {
  #journey-section {
-   padding-right: 0px;
+  height: 100%;
+  width: 100%;
+  padding-right: 0px;
+  background-size: cover;
  }
 }
 
