@@ -97,8 +97,8 @@ i.fas, i.far {
 }
 
 .about-me img {
-  max-width: 450px;
-  height: 400px;
+  max-width: 350px;
+  height: auto;
   margin-left: 80px;
   border-radius: 50%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -112,6 +112,11 @@ i.fas, i.far {
     border-radius: 50%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   }
+}
+
+/*--All sections--*/
+.section {
+  border-radius: 40px;
 }
 
     /*--About Me Social Media Icons--*/
