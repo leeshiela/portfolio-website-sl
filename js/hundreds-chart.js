@@ -1,43 +1,24 @@
-//--First Attempt--
-// console.log("Script Running");
+//Sticky mySidenav (Veritcal Navigation Bar)
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function () { myFunction() };
 
-// const firstBulb = document.querySelector("#lightbulb1");
-// console.log("firstBulb");
+// Get the navbar
+var mySidenav = document.getElementById("mySidenav");
 
-// const secondBulb = document.querySelector("#lightbulb2");
-// console.log("secondBulb");
+// Get the offset position of the navbar
+var sticky = mySidenav.offsetLeft;
 
-// const thirdBulb = document.querySelector("#lightbulb3");
-// console.log("thirdBulb");
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    mySidenav.classList.add("sticky")
+  } else {
+    mySidenav.classList.remove("sticky");
+  }
+}
 
-// const evenButton = document.querySelector("#evenbutton");
 
-// evenButton.addEventListener("click", (e) => {
-//   console.log("Button is clicked for evenButton!");
-
-// })
-
-// const turnOnOff = (e) => {
-//   console.log("Handling click for: " + e.target.id);
-//   e.target.classList.toggle("active");
-//   console.log(e.target.classList);
-//   if (e.target.classList.contains("active")) {
-//     console.log("Active")
-//     e.target.innerHTML= `💡`;
-//       //document.body.innerHTML.replace("🔌", "💡");
-//     console.log("Did it replace? Yes")
-//  } else {
-//    console.log("Else is here.")
-//    e.target.innerHTML= `🔌`;
-//   // document.body.innerHTML = document.body.innerHTML.replace("💡", "🔌");
-// }
-// };
-
-// firstBulb.addEventListener("click", turnOnOff);
-// secondBulb.addEventListener("click", turnOnOff);
-// thirdBulb.addEventListener("click", turnOnOff);
-
-//2nd Attempt with help from Virginia
+//Hundreds Carts JS 1-100 Chart//
 console.log("Script Running");
 
 const NUM_BULBS = 100;
