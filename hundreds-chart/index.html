@@ -4,16 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <title>Interactive Hundreds Charts</title>
-    
+
     <!--Google Font Styles-->
     <link href="https://fonts.googleapis.com/css?family=Allura|Dosis|Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
 
     <!--Icons from Font Awesome for Navigation Menu-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
-     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7626874-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -25,345 +25,331 @@
 
     <!--Setting Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   
+
     <!-- Style Sheet -->
     <link rel="stylesheet" href="../css/hundreds-chart.css" type="text/css" />
-    
+
 </head>
 
-  <body>
-     <!--Vertical Side Navigation Bar w/Icons-->
-        <nav>
-            <div id="mySidenav"class="sidenav">
-                <a href="../index.html" id="about">About
-                    <i class="far fa-user"></i></a>
-                <a href="../index.html#journey-section" id="journey">Journey
-                    <i class="fas fa-hiking"></i></a>
-                <a href="../index.html#projects-section" id="projects">Projects
-                    <i class="fas fa-palette"></i></a>
-                <a href="../index.html#tools-section" id="tools">Tools
-                    <i class="fas fa-paint-brush"></i></a>
-                <a href="../index.html#contact-section" id="contact">Contact
-                    <i class="fas fa-user-edit"></i></a>
-            </div>
-        </nav>
-        <!--Interactive Hundreds Chart-->
-        <header>
-            <h1>
-                Interactive Hundreds Charts
-            </h1>
-            <h2>
-                By Shiela Lee
-            </h2>
-            <p>
-                This is an interactive hundreds chart for primary school teachers. Be sure to enlarge your window to the
-                maximum. Try
-                clicking the numbers! When you want to highlight a particular pattern on the hundreds chart
-                (e.g. even numbers or landmark numbers), simply click the electric plug
-                to help children see the patterns on the hundreds chart.
-            </p>
-            <p>
-                Try out some of the buttons on the side to help you highlight patterns.
-            </p>
-        </header>
+<body>
+    <!--Vertical Side Navigation Bar w/Icons-->
+    <nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="../index.html" id="about">About
+                <i class="far fa-user"></i></a>
+            <a href="../index.html#journey-section" id="journey">Journey
+                <i class="fas fa-hiking"></i></a>
+            <a href="../index.html#projects-section" id="projects">Projects
+                <i class="fas fa-palette"></i></a>
+            <a href="../index.html#tools-section" id="tools">Tools
+                <i class="fas fa-paint-brush"></i></a>
+            <a href="../index.html#contact-section" id="contact">Contact
+                <i class="fas fa-user-edit"></i></a>
+        </div>
+    </nav>
+    <!--Interactive Hundreds Chart-->
+    <header>
+        <h1>
+            Interactive Hundreds Charts
+        </h1>
+        <h2>
+            By Shiela Lee
+        </h2>
+        <p>
+            This is an interactive hundreds chart for primary school teachers. Be sure to enlarge your window to the
+            maximum. Try
+            clicking the numbers! When you want to highlight a particular pattern on the hundreds chart
+            (e.g. even numbers or landmark numbers), simply click the electric plug
+            to help children see the patterns on the hundreds chart.
+        </p>
+        <p>
+            Try out some of the buttons on the side to help you highlight patterns.
+        </p>
+    </header>
+    <div>
         <h2>
             1-100 Chart
         </h2>
-        <div id="buttons-chart-container">
-             <div id="hundredsframe">
-                   <!-- <div class="row singledigits"> -->
-                        <div id="lightbulb1" class="item lightbulb">🔌1</div>
-                        <div id="lightbulb2" class="item lightbulb">🔌2</div>
-                        <div id="lightbulb3" class="item lightbulb">🔌3</div>
-                        <div id="lightbulb4" class="item lightbulb">🔌4</div>
-                        <div id="lightbulb5" class="item lightbulb">🔌5</div>
-                        <div id="lightbulb6" class="item lightbulb">🔌6</div>
-                        <div id="lightbulb7" class="item lightbulb">🔌7</div>
-                        <div id="lightbulb8" class="item lightbulb">🔌8</div>
-                        <div id="lightbulb9" class="item lightbulb">🔌9</div>
-                        <div id="lightbulb10" class="item lightbulb">🔌10</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb11" class="item lightbulb">🔌11</div>
-                        <div id="lightbulb12" class="item lightbulb">🔌12</div>
-                        <div id="lightbulb13" class="item lightbulb">🔌13</div>
-                        <div id="lightbulb14" class="item lightbulb">🔌14</div>
-                        <div id="lightbulb15" class="item lightbulb">🔌15</div>
-                        <div id="lightbulb16" class="item lightbulb">🔌16</div>
-                        <div id="lightbulb17" class="item lightbulb">🔌17</div>
-                        <div id="lightbulb18" class="item lightbulb">🔌18</div>
-                        <div id="lightbulb19" class="item lightbulb">🔌19</div>
-                        <div id="lightbulb20" class="item lightbulb">🔌20</div>
-                    <!-- </div> -->
-                    <!-- <div class="row"> -->
-                        <div id="lightbulb21" class="item lightbulb">🔌21</div>
-                        <div id="lightbulb22" class="item lightbulb">🔌22</div>
-                        <div id="lightbulb23" class="item lightbulb">🔌23</div>
-                        <div id="lightbulb24" class="item lightbulb">🔌24</div>
-                        <div id="lightbulb25" class="item lightbulb">🔌25</div>
-                        <div id="lightbulb26" class="item lightbulb">🔌26</div>
-                        <div id="lightbulb27" class="item lightbulb">🔌27</div>
-                        <div id="lightbulb28" class="item lightbulb">🔌28</div>
-                        <div id="lightbulb29" class="item lightbulb">🔌29</div>
-                        <div id="lightbulb30" class="item lightbulb">🔌30</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb31" class="item lightbulb">🔌31</div>
-                        <div id="lightbulb32" class="item lightbulb">🔌32</div>
-                        <div id="lightbulb33" class="item lightbulb">🔌33</div>
-                        <div id="lightbulb34" class="item lightbulb">🔌34</div>
-                        <div id="lightbulb35" class="item lightbulb">🔌35</div>
-                        <div id="lightbulb36" class="item lightbulb">🔌36</div>
-                        <div id="lightbulb37" class="item lightbulb">🔌37</div>
-                        <div id="lightbulb38" class="item lightbulb">🔌38</div>
-                        <div id="lightbulb39" class="item lightbulb">🔌39</div>
-                        <div id="lightbulb40" class="item lightbulb">🔌40</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb41" class="item lightbulb">🔌41</div>
-                        <div id="lightbulb42" class="item lightbulb">🔌42</div>
-                        <div id="lightbulb43" class="item lightbulb">🔌43</div>
-                        <div id="lightbulb44" class="item lightbulb">🔌44</div>
-                        <div id="lightbulb45" class="item lightbulb">🔌45</div>
-                        <div id="lightbulb46" class="item lightbulb">🔌46</div>
-                        <div id="lightbulb47" class="item lightbulb">🔌47</div>
-                        <div id="lightbulb48" class="item lightbulb">🔌48</div>
-                        <div id="lightbulb49" class="item lightbulb">🔌49</div>
-                        <div id="lightbulb50" class="item lightbulb">🔌50</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb51" class="item lightbulb">🔌51</div>
-                        <div id="lightbulb52" class="item lightbulb">🔌52</div>
-                        <div id="lightbulb53" class="item lightbulb">🔌53</div>
-                        <div id="lightbulb54" class="item lightbulb">🔌54</div>
-                        <div id="lightbulb55" class="item lightbulb">🔌55</div>
-                        <div id="lightbulb56" class="item lightbulb">🔌56</div>
-                        <div id="lightbulb57" class="item lightbulb">🔌57</div>
-                        <div id="lightbulb58" class="item lightbulb">🔌58</div>
-                        <div id="lightbulb59" class="item lightbulb">🔌59</div>
-                        <div id="lightbulb60" class="item lightbulb">🔌60</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb61" class="item lightbulb">🔌61</div>
-                        <div id="lightbulb62" class="item lightbulb">🔌62</div>
-                        <div id="lightbulb63" class="item lightbulb">🔌63</div>
-                        <div id="lightbulb64" class="item lightbulb">🔌64</div>
-                        <div id="lightbulb65" class="item lightbulb">🔌65</div>
-                        <div id="lightbulb66" class="item lightbulb">🔌66</div>
-                        <div id="lightbulb67" class="item lightbulb">🔌67</div>
-                        <div id="lightbulb68" class="item lightbulb">🔌68</div>
-                        <div id="lightbulb69" class="item lightbulb">🔌69</div>
-                        <div id="lightbulb70" class="item lightbulb">🔌70</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb71" class="item lightbulb">🔌71</div>
-                        <div id="lightbulb72" class="item lightbulb">🔌72</div>
-                        <div id="lightbulb73" class="item lightbulb">🔌73</div>
-                        <div id="lightbulb74" class="item lightbulb">🔌74</div>
-                        <div id="lightbulb75" class="item lightbulb">🔌75</div>
-                        <div id="lightbulb76" class="item lightbulb">🔌76</div>
-                        <div id="lightbulb77" class="item lightbulb">🔌77</div>
-                        <div id="lightbulb78" class="item lightbulb">🔌78</div>
-                        <div id="lightbulb79" class="item lightbulb">🔌79</div>
-                        <div id="lightbulb80" class="item lightbulb">🔌80</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb81" class="item lightbulb">🔌81</div>
-                        <div id="lightbulb82" class="item lightbulb">🔌82</div>
-                        <div id="lightbulb83" class="item lightbulb">🔌83</div>
-                        <div id="lightbulb84" class="item lightbulb">🔌84</div>
-                        <div id="lightbulb85" class="item lightbulb">🔌85</div>
-                        <div id="lightbulb86" class="item lightbulb">🔌86</div>
-                        <div id="lightbulb87" class="item lightbulb">🔌87</div>
-                        <div id="lightbulb88" class="item lightbulb">🔌88</div>
-                        <div id="lightbulb89" class="item lightbulb">🔌89</div>
-                        <div id="lightbulb90" class="item lightbulb">🔌90</div>
-                    <!-- </div>
-                    <div class="row"> -->
-                        <div id="lightbulb91" class="item lightbulb">🔌91</div>
-                        <div id="lightbulb92" class="item lightbulb">🔌92</div>
-                        <div id="lightbulb93" class="item lightbulb">🔌93</div>
-                        <div id="lightbulb94" class="item lightbulb">🔌94</div>
-                        <div id="lightbulb95" class="item lightbulb">🔌95</div>
-                        <div id="lightbulb96" class="item lightbulb">🔌96</div>
-                        <div id="lightbulb97" class="item lightbulb">🔌97</div>
-                        <div id="lightbulb98" class="item lightbulb">🔌98</div>
-                        <div id="lightbulb99" class="item lightbulb">🔌99</div>
-                        <div id="lightbulb100" class="item lightbulb">🔌100</div>
-                  <!-- </div> -->
+    </div>
+    <div id="buttons-chart-container">
+        <div id="hundredsframe1" class="hundredsframe">
+            <div id="lightbulb1" class="item lightbulb">🔌1</div>
+            <div id="lightbulb2" class="item lightbulb">🔌2</div>
+            <div id="lightbulb3" class="item lightbulb">🔌3</div>
+            <div id="lightbulb4" class="item lightbulb">🔌4</div>
+            <div id="lightbulb5" class="item lightbulb">🔌5</div>
+            <div id="lightbulb6" class="item lightbulb">🔌6</div>
+            <div id="lightbulb7" class="item lightbulb">🔌7</div>
+            <div id="lightbulb8" class="item lightbulb">🔌8</div>
+            <div id="lightbulb9" class="item lightbulb">🔌9</div>
+            <div id="lightbulb10" class="item lightbulb">🔌10</div>
+            <div id="lightbulb11" class="item lightbulb">🔌11</div>
+            <div id="lightbulb12" class="item lightbulb">🔌12</div>
+            <div id="lightbulb13" class="item lightbulb">🔌13</div>
+            <div id="lightbulb14" class="item lightbulb">🔌14</div>
+            <div id="lightbulb15" class="item lightbulb">🔌15</div>
+            <div id="lightbulb16" class="item lightbulb">🔌16</div>
+            <div id="lightbulb17" class="item lightbulb">🔌17</div>
+            <div id="lightbulb18" class="item lightbulb">🔌18</div>
+            <div id="lightbulb19" class="item lightbulb">🔌19</div>
+            <div id="lightbulb20" class="item lightbulb">🔌20</div>
+            <div id="lightbulb21" class="item lightbulb">🔌21</div>
+            <div id="lightbulb22" class="item lightbulb">🔌22</div>
+            <div id="lightbulb23" class="item lightbulb">🔌23</div>
+            <div id="lightbulb24" class="item lightbulb">🔌24</div>
+            <div id="lightbulb25" class="item lightbulb">🔌25</div>
+            <div id="lightbulb26" class="item lightbulb">🔌26</div>
+            <div id="lightbulb27" class="item lightbulb">🔌27</div>
+            <div id="lightbulb28" class="item lightbulb">🔌28</div>
+            <div id="lightbulb29" class="item lightbulb">🔌29</div>
+            <div id="lightbulb30" class="item lightbulb">🔌30</div>
+            <div id="lightbulb31" class="item lightbulb">🔌31</div>
+            <div id="lightbulb32" class="item lightbulb">🔌32</div>
+            <div id="lightbulb33" class="item lightbulb">🔌33</div>
+            <div id="lightbulb34" class="item lightbulb">🔌34</div>
+            <div id="lightbulb35" class="item lightbulb">🔌35</div>
+            <div id="lightbulb36" class="item lightbulb">🔌36</div>
+            <div id="lightbulb37" class="item lightbulb">🔌37</div>
+            <div id="lightbulb38" class="item lightbulb">🔌38</div>
+            <div id="lightbulb39" class="item lightbulb">🔌39</div>
+            <div id="lightbulb40" class="item lightbulb">🔌40</div>
+            <div id="lightbulb41" class="item lightbulb">🔌41</div>
+            <div id="lightbulb42" class="item lightbulb">🔌42</div>
+            <div id="lightbulb43" class="item lightbulb">🔌43</div>
+            <div id="lightbulb44" class="item lightbulb">🔌44</div>
+            <div id="lightbulb45" class="item lightbulb">🔌45</div>
+            <div id="lightbulb46" class="item lightbulb">🔌46</div>
+            <div id="lightbulb47" class="item lightbulb">🔌47</div>
+            <div id="lightbulb48" class="item lightbulb">🔌48</div>
+            <div id="lightbulb49" class="item lightbulb">🔌49</div>
+            <div id="lightbulb50" class="item lightbulb">🔌50</div>
+            <div id="lightbulb51" class="item lightbulb">🔌51</div>
+            <div id="lightbulb52" class="item lightbulb">🔌52</div>
+            <div id="lightbulb53" class="item lightbulb">🔌53</div>
+            <div id="lightbulb54" class="item lightbulb">🔌54</div>
+            <div id="lightbulb55" class="item lightbulb">🔌55</div>
+            <div id="lightbulb56" class="item lightbulb">🔌56</div>
+            <div id="lightbulb57" class="item lightbulb">🔌57</div>
+            <div id="lightbulb58" class="item lightbulb">🔌58</div>
+            <div id="lightbulb59" class="item lightbulb">🔌59</div>
+            <div id="lightbulb60" class="item lightbulb">🔌60</div>
+            <div id="lightbulb61" class="item lightbulb">🔌61</div>
+            <div id="lightbulb62" class="item lightbulb">🔌62</div>
+            <div id="lightbulb63" class="item lightbulb">🔌63</div>
+            <div id="lightbulb64" class="item lightbulb">🔌64</div>
+            <div id="lightbulb65" class="item lightbulb">🔌65</div>
+            <div id="lightbulb66" class="item lightbulb">🔌66</div>
+            <div id="lightbulb67" class="item lightbulb">🔌67</div>
+            <div id="lightbulb68" class="item lightbulb">🔌68</div>
+            <div id="lightbulb69" class="item lightbulb">🔌69</div>
+            <div id="lightbulb70" class="item lightbulb">🔌70</div>
+            <div id="lightbulb71" class="item lightbulb">🔌71</div>
+            <div id="lightbulb72" class="item lightbulb">🔌72</div>
+            <div id="lightbulb73" class="item lightbulb">🔌73</div>
+            <div id="lightbulb74" class="item lightbulb">🔌74</div>
+            <div id="lightbulb75" class="item lightbulb">🔌75</div>
+            <div id="lightbulb76" class="item lightbulb">🔌76</div>
+            <div id="lightbulb77" class="item lightbulb">🔌77</div>
+            <div id="lightbulb78" class="item lightbulb">🔌78</div>
+            <div id="lightbulb79" class="item lightbulb">🔌79</div>
+            <div id="lightbulb80" class="item lightbulb">🔌80</div>
+            <div id="lightbulb81" class="item lightbulb">🔌81</div>
+            <div id="lightbulb82" class="item lightbulb">🔌82</div>
+            <div id="lightbulb83" class="item lightbulb">🔌83</div>
+            <div id="lightbulb84" class="item lightbulb">🔌84</div>
+            <div id="lightbulb85" class="item lightbulb">🔌85</div>
+            <div id="lightbulb86" class="item lightbulb">🔌86</div>
+            <div id="lightbulb87" class="item lightbulb">🔌87</div>
+            <div id="lightbulb88" class="item lightbulb">🔌88</div>
+            <div id="lightbulb89" class="item lightbulb">🔌89</div>
+            <div id="lightbulb90" class="item lightbulb">🔌90</div>
+            <div id="lightbulb91" class="item lightbulb">🔌91</div>
+            <div id="lightbulb92" class="item lightbulb">🔌92</div>
+            <div id="lightbulb93" class="item lightbulb">🔌93</div>
+            <div id="lightbulb94" class="item lightbulb">🔌94</div>
+            <div id="lightbulb95" class="item lightbulb">🔌95</div>
+            <div id="lightbulb96" class="item lightbulb">🔌96</div>
+            <div id="lightbulb97" class="item lightbulb">🔌97</div>
+            <div id="lightbulb98" class="item lightbulb">🔌98</div>
+            <div id="lightbulb99" class="item lightbulb">🔌99</div>
+            <div id="lightbulb100" class="item lightbulb">🔌100</div>
+        </div>
+        <!--Buttons-->
+        <div id="buttons-container">
+            <div>
+                <button id="turnoff">
+                    Turn off all the lights!
+                </button>
+                <button id="turnon">
+                    Turn on all the lights!
+                </button>
             </div>
-            <!--Buttons-->
-            <div id="buttons-container">
-                <div class="container">
-                    <button id="turnoff">
-                        Turn off all the lights!
+            <div>
+                <div class="row">
+                    <button id="evenbutton">
+                        Turn on all even numbers!
                     </button>
-                    <button id="turnon">
-                        Turn on all the lights!
+                    <button id="landmarkbutton">
+                        Turn on all landmark numbers (friendly 10s)!
                     </button>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <button id="evenbutton">
-                            Turn on all even numbers!
-                        </button>
-                        <button id="landmarkbutton">
-                            Turn on all landmark numbers (friendly 10s)!
-                        </button>
-                        <button id="skipcountfive">
-                            Turn on skip counting by 5s!
-                        </button>
-                        <button id="skipcounttwo">
-                            Turn on skip counting by 2s!
-                        </button>
-                    </div>
+                    <button id="skipcountfive">
+                        Turn on skip counting by 5s!
+                    </button>
+                    <button id="skipcounttwo">
+                        Turn on skip counting by 2s!
+                    </button>
                 </div>
             </div>
         </div>
-        <h2>
-            101-200 Chart
-        </h2>
-        <div id="buttons-chart-container">
-             <div id="hundredsframe">
-                        <div id="lightbulb101" class="item lightbulb">🔌101</div>
-                        <div id="lightbulb102" class="item lightbulb">🔌102</div>
-                        <div id="lightbulb103" class="item lightbulb">🔌103</div>
-                        <div id="lightbulb104" class="item lightbulb">🔌104</div>
-                        <div id="lightbulb105" class="item lightbulb">🔌105</div>
-                        <div id="lightbulb106" class="item lightbulb">🔌106</div>
-                        <div id="lightbulb107" class="item lightbulb">🔌107</div>
-                        <div id="lightbulb108" class="item lightbulb">🔌108</div>
-                        <div id="lightbulb109" class="item lightbulb">🔌109</div>
-                        <div id="lightbulb110" class="item lightbulb">🔌110</div>
-                        <div id="lightbulb111" class="item lightbulb">🔌111</div>
-                        <div id="lightbulb112" class="item lightbulb">🔌112</div>
-                        <div id="lightbulb113" class="item lightbulb">🔌113</div>
-                        <div id="lightbulb114" class="item lightbulb">🔌114</div>
-                        <div id="lightbulb115" class="item lightbulb">🔌115</div>
-                        <div id="lightbulb116" class="item lightbulb">🔌116</div>
-                        <div id="lightbulb117" class="item lightbulb">🔌117</div>
-                        <div id="lightbulb118" class="item lightbulb">🔌118</div>
-                        <div id="lightbulb119" class="item lightbulb">🔌119</div>
-                        <div id="lightbulb120" class="item lightbulb">🔌120</div>
-                        <div id="lightbulb121" class="item lightbulb">🔌121</div>
-                        <div id="lightbulb122" class="item lightbulb">🔌122</div>
-                        <div id="lightbulb123" class="item lightbulb">🔌123</div>
-                        <div id="lightbulb124" class="item lightbulb">🔌124</div>
-                        <div id="lightbulb125" class="item lightbulb">🔌125</div>
-                        <div id="lightbulb126" class="item lightbulb">🔌126</div>
-                        <div id="lightbulb127" class="item lightbulb">🔌127</div>
-                        <div id="lightbulb128" class="item lightbulb">🔌128</div>
-                        <div id="lightbulb129" class="item lightbulb">🔌129</div>
-                        <div id="lightbulb130" class="item lightbulb">🔌130</div>
-                        <div id="lightbulb131" class="item lightbulb">🔌131</div>
-                        <div id="lightbulb132" class="item lightbulb">🔌132</div>
-                        <div id="lightbulb133" class="item lightbulb">🔌133</div>
-                        <div id="lightbulb134" class="item lightbulb">🔌134</div>
-                        <div id="lightbulb135" class="item lightbulb">🔌135</div>
-                        <div id="lightbulb136" class="item lightbulb">🔌136</div>
-                        <div id="lightbulb137" class="item lightbulb">🔌137</div>
-                        <div id="lightbulb138" class="item lightbulb">🔌138</div>
-                        <div id="lightbulb139" class="item lightbulb">🔌139</div>
-                        <div id="lightbulb140" class="item lightbulb">🔌140</div>
-                        <div id="lightbulb141" class="item lightbulb">🔌141</div>
-                        <div id="lightbulb142" class="item lightbulb">🔌142</div>
-                        <div id="lightbulb143" class="item lightbulb">🔌143</div>
-                        <div id="lightbulb144" class="item lightbulb">🔌144</div>
-                        <div id="lightbulb145" class="item lightbulb">🔌145</div>
-                        <div id="lightbulb146" class="item lightbulb">🔌146</div>
-                        <div id="lightbulb147" class="item lightbulb">🔌147</div>
-                        <div id="lightbulb148" class="item lightbulb">🔌148</div>
-                        <div id="lightbulb149" class="item lightbulb">🔌149</div>
-                        <div id="lightbulb150" class="item lightbulb">🔌150</div>
-                        <div id="lightbulb151" class="item lightbulb">🔌151</div>
-                        <div id="lightbulb152" class="item lightbulb">🔌1152</div>
-                        <div id="lightbulb153" class="item lightbulb">🔌153</div>
-                        <div id="lightbulb154" class="item lightbulb">🔌154</div>
-                        <div id="lightbulb155" class="item lightbulb">🔌155</div>
-                        <div id="lightbulb156" class="item lightbulb">🔌156</div>
-                        <div id="lightbulb157" class="item lightbulb">🔌157</div>
-                        <div id="lightbulb158" class="item lightbulb">🔌158</div>
-                        <div id="lightbulb159" class="item lightbulb">🔌159</div>
-                        <div id="lightbulb160" class="item lightbulb">🔌160</div>
-                        <div id="lightbulb161" class="item lightbulb">🔌161</div>
-                        <div id="lightbulb162" class="item lightbulb">🔌162</div>
-                        <div id="lightbulb163" class="item lightbulb">🔌163</div>
-                        <div id="lightbulb164" class="item lightbulb">🔌164</div>
-                        <div id="lightbulb165" class="item lightbulb">🔌165</div>
-                        <div id="lightbulb166" class="item lightbulb">🔌166</div>
-                        <div id="lightbulb167" class="item lightbulb">🔌167</div>
-                        <div id="lightbulb168" class="item lightbulb">🔌168</div>
-                        <div id="lightbulb169" class="item lightbulb">🔌169</div>
-                        <div id="lightbulb170" class="item lightbulb">🔌170</div>
-                        <div id="lightbulb171" class="item lightbulb">🔌171</div>
-                        <div id="lightbulb172" class="item lightbulb">🔌172</div>
-                        <div id="lightbulb173" class="item lightbulb">🔌173</div>
-                        <div id="lightbulb174" class="item lightbulb">🔌174</div>
-                        <div id="lightbulb175" class="item lightbulb">🔌175</div>
-                        <div id="lightbulb176" class="item lightbulb">🔌176</div>
-                        <div id="lightbulb177" class="item lightbulb">🔌177</div>
-                        <div id="lightbulb178" class="item lightbulb">🔌178</div>
-                        <div id="lightbulb179" class="item lightbulb">🔌179</div>
-                        <div id="lightbulb180" class="item lightbulb">🔌180</div>
-                        <div id="lightbulb181" class="item lightbulb">🔌181</div>
-                        <div id="lightbulb182" class="item lightbulb">🔌182</div>
-                        <div id="lightbulb183" class="item lightbulb">🔌183</div>
-                        <div id="lightbulb184" class="item lightbulb">🔌184</div>
-                        <div id="lightbulb185" class="item lightbulb">🔌185</div>
-                        <div id="lightbulb186" class="item lightbulb">🔌186</div>
-                        <div id="lightbulb187" class="item lightbulb">🔌187</div>
-                        <div id="lightbulb188" class="item lightbulb">🔌188</div>
-                        <div id="lightbulb189" class="item lightbulb">🔌189</div>
-                        <div id="lightbulb190" class="item lightbulb">🔌190</div>
-                        <div id="lightbulb191" class="item lightbulb">🔌191</div>
-                        <div id="lightbulb192" class="item lightbulb">🔌192</div>
-                        <div id="lightbulb193" class="item lightbulb">🔌193</div>
-                        <div id="lightbulb194" class="item lightbulb">🔌194</div>
-                        <div id="lightbulb195" class="item lightbulb">🔌195</div>
-                        <div id="lightbulb196" class="item lightbulb">🔌196</div>
-                        <div id="lightbulb197" class="item lightbulb">🔌197</div>
-                        <div id="lightbulb198" class="item lightbulb">🔌198</div>
-                        <div id="lightbulb199" class="item lightbulb">🔌199</div>
-                        <div id="lightbulb100" class="item lightbulb">🔌200</div>
+    </div>
+    <section>
+        <div>
+            <h2>
+                101-200 Chart
+            </h2>
+        </div>
+    </section>
+    <div id="buttons-chart-container">
+        <div id="hundredsframe2" class="hundredsframe">
+            <div id="lightbulb101" class="item lightbulb">🔌101</div>
+            <div id="lightbulb102" class="item lightbulb">🔌102</div>
+            <div id="lightbulb103" class="item lightbulb">🔌103</div>
+            <div id="lightbulb104" class="item lightbulb">🔌104</div>
+            <div id="lightbulb105" class="item lightbulb">🔌105</div>
+            <div id="lightbulb106" class="item lightbulb">🔌106</div>
+            <div id="lightbulb107" class="item lightbulb">🔌107</div>
+            <div id="lightbulb108" class="item lightbulb">🔌108</div>
+            <div id="lightbulb109" class="item lightbulb">🔌109</div>
+            <div id="lightbulb110" class="item lightbulb">🔌110</div>
+            <div id="lightbulb111" class="item lightbulb">🔌111</div>
+            <div id="lightbulb112" class="item lightbulb">🔌112</div>
+            <div id="lightbulb113" class="item lightbulb">🔌113</div>
+            <div id="lightbulb114" class="item lightbulb">🔌114</div>
+            <div id="lightbulb115" class="item lightbulb">🔌115</div>
+            <div id="lightbulb116" class="item lightbulb">🔌116</div>
+            <div id="lightbulb117" class="item lightbulb">🔌117</div>
+            <div id="lightbulb118" class="item lightbulb">🔌118</div>
+            <div id="lightbulb119" class="item lightbulb">🔌119</div>
+            <div id="lightbulb120" class="item lightbulb">🔌120</div>
+            <div id="lightbulb121" class="item lightbulb">🔌121</div>
+            <div id="lightbulb122" class="item lightbulb">🔌122</div>
+            <div id="lightbulb123" class="item lightbulb">🔌123</div>
+            <div id="lightbulb124" class="item lightbulb">🔌124</div>
+            <div id="lightbulb125" class="item lightbulb">🔌125</div>
+            <div id="lightbulb126" class="item lightbulb">🔌126</div>
+            <div id="lightbulb127" class="item lightbulb">🔌127</div>
+            <div id="lightbulb128" class="item lightbulb">🔌128</div>
+            <div id="lightbulb129" class="item lightbulb">🔌129</div>
+            <div id="lightbulb130" class="item lightbulb">🔌130</div>
+            <div id="lightbulb131" class="item lightbulb">🔌131</div>
+            <div id="lightbulb132" class="item lightbulb">🔌132</div>
+            <div id="lightbulb133" class="item lightbulb">🔌133</div>
+            <div id="lightbulb134" class="item lightbulb">🔌134</div>
+            <div id="lightbulb135" class="item lightbulb">🔌135</div>
+            <div id="lightbulb136" class="item lightbulb">🔌136</div>
+            <div id="lightbulb137" class="item lightbulb">🔌137</div>
+            <div id="lightbulb138" class="item lightbulb">🔌138</div>
+            <div id="lightbulb139" class="item lightbulb">🔌139</div>
+            <div id="lightbulb140" class="item lightbulb">🔌140</div>
+            <div id="lightbulb141" class="item lightbulb">🔌141</div>
+            <div id="lightbulb142" class="item lightbulb">🔌142</div>
+            <div id="lightbulb143" class="item lightbulb">🔌143</div>
+            <div id="lightbulb144" class="item lightbulb">🔌144</div>
+            <div id="lightbulb145" class="item lightbulb">🔌145</div>
+            <div id="lightbulb146" class="item lightbulb">🔌146</div>
+            <div id="lightbulb147" class="item lightbulb">🔌147</div>
+            <div id="lightbulb148" class="item lightbulb">🔌148</div>
+            <div id="lightbulb149" class="item lightbulb">🔌149</div>
+            <div id="lightbulb150" class="item lightbulb">🔌150</div>
+            <div id="lightbulb151" class="item lightbulb">🔌151</div>
+            <div id="lightbulb152" class="item lightbulb">🔌152</div>
+            <div id="lightbulb153" class="item lightbulb">🔌153</div>
+            <div id="lightbulb154" class="item lightbulb">🔌154</div>
+            <div id="lightbulb155" class="item lightbulb">🔌155</div>
+            <div id="lightbulb156" class="item lightbulb">🔌156</div>
+            <div id="lightbulb157" class="item lightbulb">🔌157</div>
+            <div id="lightbulb158" class="item lightbulb">🔌158</div>
+            <div id="lightbulb159" class="item lightbulb">🔌159</div>
+            <div id="lightbulb160" class="item lightbulb">🔌160</div>
+            <div id="lightbulb161" class="item lightbulb">🔌161</div>
+            <div id="lightbulb162" class="item lightbulb">🔌162</div>
+            <div id="lightbulb163" class="item lightbulb">🔌163</div>
+            <div id="lightbulb164" class="item lightbulb">🔌164</div>
+            <div id="lightbulb165" class="item lightbulb">🔌165</div>
+            <div id="lightbulb166" class="item lightbulb">🔌166</div>
+            <div id="lightbulb167" class="item lightbulb">🔌167</div>
+            <div id="lightbulb168" class="item lightbulb">🔌168</div>
+            <div id="lightbulb169" class="item lightbulb">🔌169</div>
+            <div id="lightbulb170" class="item lightbulb">🔌170</div>
+            <div id="lightbulb171" class="item lightbulb">🔌171</div>
+            <div id="lightbulb172" class="item lightbulb">🔌172</div>
+            <div id="lightbulb173" class="item lightbulb">🔌173</div>
+            <div id="lightbulb174" class="item lightbulb">🔌174</div>
+            <div id="lightbulb175" class="item lightbulb">🔌175</div>
+            <div id="lightbulb176" class="item lightbulb">🔌176</div>
+            <div id="lightbulb177" class="item lightbulb">🔌177</div>
+            <div id="lightbulb178" class="item lightbulb">🔌178</div>
+            <div id="lightbulb179" class="item lightbulb">🔌179</div>
+            <div id="lightbulb180" class="item lightbulb">🔌180</div>
+            <div id="lightbulb181" class="item lightbulb">🔌181</div>
+            <div id="lightbulb182" class="item lightbulb">🔌182</div>
+            <div id="lightbulb183" class="item lightbulb">🔌183</div>
+            <div id="lightbulb184" class="item lightbulb">🔌184</div>
+            <div id="lightbulb185" class="item lightbulb">🔌185</div>
+            <div id="lightbulb186" class="item lightbulb">🔌186</div>
+            <div id="lightbulb187" class="item lightbulb">🔌187</div>
+            <div id="lightbulb188" class="item lightbulb">🔌188</div>
+            <div id="lightbulb189" class="item lightbulb">🔌189</div>
+            <div id="lightbulb190" class="item lightbulb">🔌190</div>
+            <div id="lightbulb191" class="item lightbulb">🔌191</div>
+            <div id="lightbulb192" class="item lightbulb">🔌192</div>
+            <div id="lightbulb193" class="item lightbulb">🔌193</div>
+            <div id="lightbulb194" class="item lightbulb">🔌194</div>
+            <div id="lightbulb195" class="item lightbulb">🔌195</div>
+            <div id="lightbulb196" class="item lightbulb">🔌196</div>
+            <div id="lightbulb197" class="item lightbulb">🔌197</div>
+            <div id="lightbulb198" class="item lightbulb">🔌198</div>
+            <div id="lightbulb199" class="item lightbulb">🔌199</div>
+            <div id="lightbulb100" class="item lightbulb">🔌200</div>
+        </div>
+        <!--Buttons-->
+        <div id="buttons-container">
+            <div class="container">
+                <button id="turnoff2">
+                    Turn off all the lights!
+                </button>
+                <button id="turnon2">
+                    Turn on all the lights!
+                </button>
             </div>
-            <!--Buttons-->
-            <div id="buttons-container">
-                <div class="container">
-                    <button id="turnoff2">
-                        Turn off all the lights!
+            <div class="container">
+                <div class="row">
+                    <button id="evenbutton2">
+                        Turn on all even numbers!
                     </button>
-                    <button id="turnon2">
-                        Turn on all the lights!
+                    <button id="landmarkbutton2">
+                        Turn on all landmark numbers (friendly 10s)!
                     </button>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <button id="evenbutton2">
-                            Turn on all even numbers!
-                        </button>
-                        <button id="landmarkbutton2">
-                            Turn on all landmark numbers (friendly 10s)!
-                        </button>
-                        <button id="skipcountfive2">
-                            Turn on skip counting by 5s!
-                        </button>
-                    </div>
+                    <button id="skipcountfive2">
+                        Turn on skip counting by 5s!
+                    </button>
                 </div>
             </div>
         </div>
-<div>
+    </div>
+    <div>
         <footer>
             <div id="social-media-icons">
-              <a href="https://www.facebook.com/leeshiela" target="_blank" class="fab fa-facebook"></a>
-              <a href="https://twitter.com/leeshiela" target="_blank" class="fab fa-twitter"></a>
-              <a href="https://www.linkedin.com/in/leeshiela/" target="_blank" class="fab fa-linkedin"></a>
-              <a href="https://github.com/leeshiela" target="_blank" class="fab fa-github"></a>
+                <a href="https://www.facebook.com/leeshiela" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://twitter.com/leeshiela" target="_blank" class="fab fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/leeshiela/" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://github.com/leeshiela" target="_blank" class="fab fa-github"></a>
             </div>
             Copyright &copy; 2020 Shiela Lee. All rights reserved.
-          </footer>
-        </div>
-        <!--JavaScript-->
-        <script src="../js/hundreds-chart.js" type="text/javascript"></script>
-    </body>
+        </footer>
+    </div>
+    <!--JavaScript-->
+    <script src="../js/hundreds-chart.js" type="text/javascript"></script>
+</body>
 
 </html>

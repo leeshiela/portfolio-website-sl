@@ -49,6 +49,7 @@ const turnOnOff = e => {
 
 //Use an array
 let bulbs = [];
+let bulbs2 = [];
 
 //increment by 1
 for (let i = 0; i < NUM_BULBS; i++) {
@@ -67,6 +68,27 @@ let turnOnAll = () => {
 };
 allOn.addEventListener("click", turnOnAll);
 
+
+//square(5) --> 5^2
+//square(6) --> 6^2
+/*
+function turnOnAll(whichType){
+  console.log("All buttons clicked");
+  for (let i = 0; i < NUM_BULBS; i++){
+    if (whichType == "board one"){
+      bulbs[i].innerHTML = `💡${i + 1}`;
+      bulbs[i].classList.add("active");
+    }
+    else if (whichType == "board two") {
+      bulbs2[i].innerHTML = `💡${i + 1}`;
+      bulbs2[i].classList.add("active");
+    }
+  }
+
+
+*/
+
+
 //Turn off all lights
 let turnOffAll = () => {
   console.log("All Off Button clicked");
@@ -77,6 +99,13 @@ let turnOffAll = () => {
   }
 };
 allOff.addEventListener("click", turnOffAll);
+
+
+function square(num) {
+  return num^2;
+}
+
+
 
 //Turn on all even numbers
 let turnOnEvens = () => {
@@ -91,6 +120,7 @@ let turnOnEvens = () => {
     }
   }
 };
+
 allEven.addEventListener("click", turnOnEvens);
 console.log("All Even");
 
@@ -118,6 +148,19 @@ console.log("All Tens");
 //Turn on all multiples of five
 let turnOnFives = () => {
   console.log("Fives Button clicked");
+
+
+  /**
+   * 
+   * if (whichChart == 1){
+   * deal with chart one
+   * }
+   * else{
+   * 
+   * deal with chart two
+   * }
+   * 
+   */
   turnOffAll();
   console.log();
   for (let i = 0; i < NUM_BULBS; i++) {
