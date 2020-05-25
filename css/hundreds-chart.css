@@ -30,10 +30,6 @@ h2 {
   text-align: center;
 }
 
-div > h2 {
-  padding: 20px;
-}
-
 p {
   margin-top: 50px;
   color: white;
@@ -48,7 +44,7 @@ p {
   
   #buttons-container {
     float:left;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 20%
   }
   
@@ -65,15 +61,16 @@ p {
   }
   
   /*--100s frame--*/
-  .hundredsframe {
+.hundredsframe {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     background-color: #363636;
     max-width: 810px;
     margin: auto;
+    margin-bottom: 50px;
    }
   
-  .item {
+.item {
     text-align: center;
     background-color: #363636;
     padding: 5px;
@@ -82,11 +79,11 @@ p {
     border-radius: 25px;
     }
 
-  .lightbulb {
+.lightbulb {
     font-size: 22px;
   }
   
-  .active {
+.active {
     background: white;
     transform: scale(1.1);
     box-shadow: 0 0 35px white;
