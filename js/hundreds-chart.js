@@ -148,19 +148,6 @@ console.log("All Tens");
 //Turn on all multiples of five
 let turnOnFives = () => {
   console.log("Fives Button clicked");
-
-
-  /**
-   * 
-   * if (whichChart == 1){
-   * deal with chart one
-   * }
-   * else{
-   * 
-   * deal with chart two
-   * }
-   * 
-   */
   turnOffAll();
   console.log();
   for (let i = 0; i < NUM_BULBS; i++) {
