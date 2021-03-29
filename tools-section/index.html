@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Tools Section </title>
+    <!--Style Doc-->
+    <link rel="stylesheet" href="../css/tools-section.css">
+
+    <!--Google Font Styles-->
+    <link href="https://fonts.googleapis.com/css?family=Allura|Dosis|Montserrat" rel="stylesheet">
+
+    <!--Icons from Font Awesome for Navigation Menu-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!--Making the data show up on the same page-->
+    <meta charset="UTF-8">
+    <script language="JavaScript">
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7626874-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-7626874-1');
+    </script>
+
+    <!--Setting Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+        <!--Vertical Side Navigation Bar w/Icons-->
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="../index.html" id="about">About
+                    <i class="far fa-user"></i></a>
+                <a href="../index.html#journey-section" id="journey">Journey
+                    <i class="fas fa-hiking"></i></a>
+                <a href="../index.html#projects-section" id="projects">Projects
+                    <i class="fas fa-palette"></i></a>
+                <a href="../index.html#tools-section" id="tools">Tools
+                    <i class="fas fa-paint-brush"></i></a>
+                <a href="../index.html#contact-section" id="contact">Contact
+                    <i class="fas fa-user-edit"></i></a>
+            </div>
+        </nav>
+
+ <!--Tools Section-->
+ <section class="section" id="tools-section">
+    <h3> Tools </h3>
+    <p id="tools-description">As a special education teacher, I am looking to build tools that are universally designed
+      for learning (UDL) and that help teachers create an accessible and inclusive classroom community.</p>
+
+    <div id="tools-container">
+      <!--One page tabs for Tools Section-->
+      <div>
+        <button class="tablink" onclick="openPage('udl-tools', this, '#2A7389')">For lesson
+          design</button>
+        <button class="tablink" onclick="openPage('station-tools', this, '#2A8987')" id="defaultOpen">For
+       management</button>
+        <button class="tablink" onclick="openPage('digital-portfolios', this, '#675CBF')">For showcasing student
+          work</button>
+          <button class="tablink" onclick="openPage('teaching-tools', this, '#470c71')">For teaching</button>
+      </div>
+
+      <!--Tab Content-->
+      <div id="udl-tools" class="tabcontent">
+        <div class="tool-header">
+          <h4>. . . I use UDL as a guide</h4>
+        </div>
+        <div class="tools-boxes">
+          <div class="tool-p">
+            <p>
+              I follow universal design for learning (UDL) guidelines outlined by <a
+                href="http://udlguidelines.cast.org/" target="blank">CAST</a>. UDL as a framework helps all students,
+              not just students with disabilities or English Language Learners.
+            </p>
+          </div>
+          <div class="card">
+            <a href="http://udlguidelines.cast.org/" target="blank">
+              <img src="img/website-icons/udl-icon-transparent.png" alt="udl-icon-transparent">
+              <img src="img/website-icons/udl-icon-color-transparent.png" class="color" alt="udl-icon-color">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="station-tools" class="tabcontent">
+        <div class="tool-header">
+          <h4>. . . I use a station tool</h4>
+        </div>
+        <div class="tools-boxes">
+          <div class="tool-p">
+            <p> In my first foray into coding, I designed a <a href="./station-tool/index.html">tool</a> for my
+              classroom specifically for when I teach using the
+              stations model. I developed this visual tool to help all students know where
+              to go and what to bring to each station.
+            </p>
+          </div>
+          <div class="card">
+            <a href="./station-tool/index.html">
+              <img src="img/website-icons/stations-icon-transparent.png" alt="stations-icon">
+              <img src="img/website-icons/stations-icon-color-transparent.png" class="color" alt="stations-icon-color">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="digital-portfolios" class="tabcontent">
+        <div class="tool-header">
+          <h4>. . . I use digital portfolios</h4>
+        </div>
+        <div class="tools-boxes">
+          <div class="tool-p">
+            <p>While I am working to develop my own digital portfolios hub to showcase student work, I
+              currently use <a href="https://web.seesaw.me/" target="_blank">Seesaw</a>. Seesaw allows me to create
+              interactive
+              lessons and to show and share my students work with each other.</p>
+          </div>
+          <div class="card">
+            <a href="https://web.seesaw.me/" target="_blank">
+              <img src="img/website-icons/digital-portfolios-icon-transparent.png" alt="digital-portfolios-icon">
+              <img src="img/website-icons/digital-portfolios-icon-color-transparent.png" class="color"
+                alt="digital-portfolios-icon-color">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div id="teaching-tools" class="tabcontent">
+        <div class="tool-header">
+          <h4>. . . I use an interactive 100s chart</h4>
+        </div>
+        <div class="tools-boxes">
+          <div class="tool-p">
+            <p>
+              As I continue to learn how to code, I designed an <a href="hundreds-chart/index.html">interactive hundreds chart tool</a> for my
+              students to help them learn about patterns on the hundreds chart and to strengthen their number sense.
+            </p>
+          </div>
+          <div class="card">
+            <a href="./hundreds-chart/index.html">
+              <img src="img/website-icons/hchart-icon-transparent.png" alt="hchart-icon">
+              <img src="img/website-icons/hchart-icon-color-transparent.png" class="color" alt="hchart-icon-color">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+<footer>
+    Copyright &copy; 2021 Shiela Lee. All rights reserved.
+</footer>
+
+
+<!--Javascript-->
+
+<script src="../js/tools-section.js"></script>
+
+</html>

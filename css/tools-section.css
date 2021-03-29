@@ -1,0 +1,174 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/*--Navigation Menu Styles--*/
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -86px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 20px; 
+    width: 100px;
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  #about {
+    top: 50px;
+    background-color: #522A89;
+  }
+  
+  #journey {
+    top: 130px;
+    background-color: #6A2A89; 
+  }
+  
+  #projects {
+    top: 210px;
+    background-color: #812A89; 
+  }
+  
+  #tools {
+    top: 290px;
+    background-color: #892A79;
+  }
+  
+  #contact {
+    top: 370px;
+    background-color: #7D035E;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    }
+  
+  /*--Icon Styling--*/
+  i.fas, i.far {
+    color: white;
+    float: right;
+    }
+
+/*--Tools Section Page Styles*/
+/*--Tools Section--*/
+
+#tools-section {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background: linear-gradient(#FFF, #EBF4DF);
+    padding-left: 80px;
+    /*height: 900px;*/
+  }
+  
+  @media only screen and (max-width: 450px) {
+    #tools-section {
+      padding-left: 50px;
+    }
+  }
+  
+  
+  #tools-description {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    padding-left: 0px;
+  }
+  
+  @media only screen and (max-width: 450px) {
+    #tools-description {
+      text-align: center;
+      font-family: 'Dosis', sans-serif;
+      font-size: 18px;
+      padding-right: 40px;
+      padding-left: 20px;
+    }
+  }
+  
+  #tools-container {
+    max-width: 90%;
+    height: 100%;
+  }
+  
+  /*--Visual of tab content and tab  links for Tools Section--*/
+  .tablink {
+    font-family: 'Dosis', sans-serif;
+    background-color: #000;
+    color: white;
+    float: left;
+    border-radius: 25px;
+    border: 2px solid #888C8D;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 24px;
+    width: 25%;
+
+    
+}
+  
+   @media only screen and (max-width: 450px) {
+    .tablink {
+      font-size: 16px;
+  } 
+  }
+  
+  .tablink:hover {
+    background-color: #522A89;
+    color: white;
+  }
+  
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 80px;
+    /*height: 380px;*/
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .tabcontent {
+      font-size: 18px;
+      padding: 20px;
+    }
+  }
+  
+  .tabcontent:hover .color { /*Hovering over tab content to put color on image in Tools Section*/
+    display: inline;
+  }
+  
+  .tools-boxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tools-boxes img {
+    max-width: 200px;
+    height: auto;
+   }
+  
+  .tool-p {
+    max-width: 800px;
+  }
+  
+  #udl-tools {
+    background: linear-gradient(#2A7389 40%, #EBF4DF);
+  }
+  #station-tools {
+    background: linear-gradient(#2A8987 40%, #EBF4DF);
+  }
+  #digital-portfolios {
+    background: linear-gradient(#675CBF 40%, #EBF4DF);
+  }
+  #teaching-tools {
+    background: linear-gradient(#470c71 40%, #EBF4DF);
+  
+  }
+  
