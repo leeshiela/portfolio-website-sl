@@ -58,117 +58,47 @@ html {
     }
 
 /*--Tools Section Page Styles*/
-/*--Tools Section--*/
 
-#tools-section {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    background: linear-gradient(#FFF, #EBF4DF);
-    padding-left: 80px;
-    /*height: 900px;*/
-  }
-  
-  @media only screen and (max-width: 450px) {
-    #tools-section {
-      padding-left: 50px;
-    }
-  }
-  
-  
-  #tools-description {
-    text-align: center;
-    font-family: 'Dosis', sans-serif;
-    font-size: 22px;
-    padding-left: 0px;
-  }
-  
-  @media only screen and (max-width: 450px) {
-    #tools-description {
-      text-align: center;
-      font-family: 'Dosis', sans-serif;
-      font-size: 18px;
-      padding-right: 40px;
-      padding-left: 20px;
-    }
-  }
-  
-  #tools-container {
-    max-width: 90%;
-    height: 100%;
-  }
-  
-  /*--Visual of tab content and tab  links for Tools Section--*/
-  .tablink {
-    font-family: 'Dosis', sans-serif;
-    background-color: #000;
-    color: white;
-    float: left;
-    border-radius: 25px;
-    border: 2px solid #888C8D;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 24px;
-    width: 25%;
-
-    
-}
-  
-   @media only screen and (max-width: 450px) {
-    .tablink {
-      font-size: 16px;
-  } 
-  }
-  
-  .tablink:hover {
-    background-color: #522A89;
-    color: white;
-  }
-  
-  .tabcontent {
-    color: white;
-    display: none;
-    padding: 80px;
-    /*height: 380px;*/
-  }
-  
-  @media only screen and (max-width: 450px) {
-    .tabcontent {
-      font-size: 18px;
-      padding: 20px;
-    }
-  }
-  
-  .tabcontent:hover .color { /*Hovering over tab content to put color on image in Tools Section*/
-    display: inline;
-  }
-  
-  .tools-boxes {
+.flip-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 60px;
+
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border: #A9A9A9;
+    border-radius: 25px;
+    box-shadow: 0 0 3px #A9A9A9;
+    background-color: #F8F5E1;
+    padding: 100px;
+    margin: 5%;
+    font-size: 30px;
+    text-align: center;
+    transition: transform 3s;
+ 
+    transition-timing-function:cubic-bezier(0.23, 1, 0.320, 1);
   }
-  
-  .tools-boxes img {
-    max-width: 200px;
-    height: auto;
-   }
-  
-  .tool-p {
-    max-width: 800px;
-  }
-  
-  #udl-tools {
-    background: linear-gradient(#2A7389 40%, #EBF4DF);
-  }
-  #station-tools {
-    background: linear-gradient(#2A8987 40%, #EBF4DF);
-  }
-  #digital-portfolios {
-    background: linear-gradient(#675CBF 40%, #EBF4DF);
-  }
-  #teaching-tools {
-    background: linear-gradient(#470c71 40%, #EBF4DF);
-  
-  }
-  
+
+
+.item:hover {
+    /* transform: rotate(360deg); */
+    background-image: -webkit-radial-gradient(
+        center top, circle farthest-corner,
+        #FFF 0%, #D8DFE9 100%);
+    background-image: radial-gradient(
+        circle farthest-corner at center top,
+        #FFF 0%, #D8DFE9 100%);
+       overflow: hidden;
+    animation: moveCenter 6s;
+    
+}
+
+@keyframes moveCenter {
+    0% {background-color: #F8F5E1; left: 0px; top:0px;}
+    50% {background-color: #D8DFE9; left:200px; top:200px;} 
+    100% {background-color: #F8F5E1; left:0px; top: 0px;}
+}
