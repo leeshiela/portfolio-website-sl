@@ -61,11 +61,12 @@ html {
 
 .flip-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding: 60px;
 
 }
+
 
 .item {
     width: 100px;
@@ -94,7 +95,7 @@ html {
         #FFF 0%, #D8DFE9 100%);
        overflow: hidden;
     animation: moveCenter 6s;
-    
+    transform: scale(0.954406) translateZ(0px); opacity: 0.77203;
 }
 
 @keyframes moveCenter {
